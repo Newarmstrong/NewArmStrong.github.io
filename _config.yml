@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 
 title: [TESTE NOME ]
 description: [A short description of your site's purpose]
+gem "github-pages", group: :jekyll_plugins

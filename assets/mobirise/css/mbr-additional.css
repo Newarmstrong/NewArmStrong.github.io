@@ -10,11 +10,11 @@ body {
 }
 .display-1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 4rem;
+  font-size: 4.75rem;
 }
 .display-2 {
   font-family: 'Jost', sans-serif;
@@ -42,11 +42,11 @@ body {
 }
 .display-7 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -55,14 +55,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 2.56rem;
+    font-size: 3.04rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.24rem;
-    font-size: calc( 1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (1.77rem + (3.2 - 1.77) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.66rem;
+    font-size: calc( 1.98rem + (3.8 - 1.98) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.98rem + (3.8 - 1.98) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -80,9 +80,9 @@ body {
     line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1054,12 +1054,45 @@ a {
 }
 .cid-sj7Hsj0C7s .mbr-text {
   color: #ffffff;
+  text-align: center;
 }
 .cid-sj7Hsj0C7s .name {
   color: #ffffff;
 }
 .cid-sj7Hsj0C7s .position {
   color: #ffffff;
+}
+.cid-sj7NH1LNUj {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #002d62;
+}
+.cid-sj7NH1LNUj .card-wrapper {
+  background: #007ac1;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  .cid-sj7NH1LNUj .card-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-sj7NH1LNUj .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sj7NH1LNUj .card-wrapper {
+    padding: 4rem;
+  }
+}
+.cid-sj7NH1LNUj .mbr-text,
+.cid-sj7NH1LNUj .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-sj7NH1LNUj .card-title,
+.cid-sj7NH1LNUj .card-box {
+  text-align: left;
 }
 .cid-sj7C3HbD8q {
   z-index: 1000;
@@ -1883,7 +1916,7 @@ a {
 .cid-sj7JST4aPA {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background: #fafafa;
+  background: #002d62;
 }
 .cid-sj7JST4aPA .team-card {
   margin-bottom: 2rem;

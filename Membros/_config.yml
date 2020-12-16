@@ -1,6 +1,0 @@
-theme: jekyll-theme-minimal
-
-title: [NewArmStrong]
-description: [Unifei Campus Itabira - @2020]
-gem "github-pages", group: :jekyll_plugins
-logo: /imagens/Logo.png

@@ -1,0 +1,460 @@
+[0.448s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/mnt/d/projetos/NewArmStrong.github.io']
+[0.449s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/mnt/d/projetos/NewArmStrong.github.io'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f92eb8dc6a0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f92eb8dc6a0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f92eb752730>)
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.556s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/d/projetos/NewArmStrong.github.io'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'python'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets) by extension 'python_setup_py'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extensions ['cmake', 'python']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'cmake'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'python'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extensions ['python_setup_py']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap) by extension 'python_setup_py'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'ros'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extensions ['cmake', 'python']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'cmake'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'python'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/css) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'ros'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extensions ['cmake', 'python']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'python'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/bootstrap/js) by extension 'python_setup_py'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'ignore_ament_install'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'ros'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extensions ['cmake', 'python']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'cmake'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'python'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extensions ['python_setup_py']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'colcon_meta'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extensions ['ros']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'ros'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extensions ['cmake', 'python']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'cmake'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'python'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extensions ['python_setup_py']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/css) by extension 'python_setup_py'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extensions ['ignore', 'ignore_ament_install']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'ignore_ament_install'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extensions ['colcon_pkg']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extensions ['cmake', 'python']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'python'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extensions ['python_setup_py']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/dropdown/js) by extension 'python_setup_py'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extensions ['colcon_pkg']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'colcon_meta'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extensions ['ros']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'ros'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extensions ['cmake', 'python']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'cmake'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'python'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extensions ['python_setup_py']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/images) by extension 'python_setup_py'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'ignore_ament_install'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'ros'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extensions ['cmake', 'python']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'cmake'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'python'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extensions ['python_setup_py']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise) by extension 'python_setup_py'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extensions ['colcon_meta']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'colcon_meta'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extensions ['ros']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'ros'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extensions ['cmake', 'python']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'cmake'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'python'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extensions ['python_setup_py']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/mobirise/css) by extension 'python_setup_py'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'ignore_ament_install'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extensions ['colcon_pkg']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'colcon_pkg'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extensions ['colcon_meta']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'colcon_meta'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'ros'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extensions ['cmake', 'python']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'cmake'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'python'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extensions ['python_setup_py']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/parallax) by extension 'python_setup_py'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extensions ['ignore', 'ignore_ament_install']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'ignore'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'ignore_ament_install'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'colcon_pkg'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extensions ['colcon_meta']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'colcon_meta'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extensions ['ros']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'ros'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extensions ['cmake', 'python']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'cmake'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'python'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extensions ['python_setup_py']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/popper) by extension 'python_setup_py'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extensions ['ignore', 'ignore_ament_install']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'ignore'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'ignore_ament_install'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extensions ['colcon_pkg']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'colcon_pkg'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extensions ['colcon_meta']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'colcon_meta'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extensions ['ros']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'ros'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extensions ['cmake', 'python']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'cmake'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'python'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extensions ['python_setup_py']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/smoothscroll) by extension 'python_setup_py'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extensions ['ignore', 'ignore_ament_install']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'ignore'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'ignore_ament_install'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'colcon_pkg'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extensions ['colcon_meta']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'colcon_meta'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extensions ['ros']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'ros'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extensions ['cmake', 'python']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'cmake'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'python'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extensions ['python_setup_py']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon) by extension 'python_setup_py'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extensions ['ignore', 'ignore_ament_install']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'ignore_ament_install'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extensions ['colcon_pkg']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'colcon_pkg'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extensions ['colcon_meta']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'colcon_meta'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extensions ['ros']
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'ros'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extensions ['cmake', 'python']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'cmake'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'python'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extensions ['python_setup_py']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/css) by extension 'python_setup_py'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'ignore'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'ignore_ament_install'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extensions ['colcon_pkg']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'colcon_pkg'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extensions ['colcon_meta']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'colcon_meta'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extensions ['ros']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'ros'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extensions ['cmake', 'python']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'cmake'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'python'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extensions ['python_setup_py']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/socicon/fonts) by extension 'python_setup_py'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extensions ['ignore', 'ignore_ament_install']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'ignore'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extensions ['colcon_pkg']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'colcon_pkg'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extensions ['colcon_meta']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'colcon_meta'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extensions ['ros']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'ros'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extensions ['cmake', 'python']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'cmake'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'python'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extensions ['python_setup_py']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/tether) by extension 'python_setup_py'
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extensions ['ignore', 'ignore_ament_install']
+[1.375s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'ignore_ament_install'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extensions ['colcon_pkg']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'colcon_meta'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extensions ['ros']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'ros'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extensions ['cmake', 'python']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'cmake'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'python'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extensions ['python_setup_py']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme) by extension 'python_setup_py'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extensions ['ignore', 'ignore_ament_install']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'ignore'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'ignore_ament_install'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extensions ['colcon_pkg']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'colcon_pkg'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extensions ['colcon_meta']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'colcon_meta'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extensions ['ros']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'ros'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extensions ['cmake', 'python']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'cmake'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'python'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extensions ['python_setup_py']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/css) by extension 'python_setup_py'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extensions ['ignore', 'ignore_ament_install']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'ignore'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'ignore_ament_install'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extensions ['colcon_pkg']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'colcon_pkg'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extensions ['colcon_meta']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'colcon_meta'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extensions ['ros']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'ros'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extensions ['cmake', 'python']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'cmake'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'python'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extensions ['python_setup_py']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/theme/js) by extension 'python_setup_py'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extensions ['ignore', 'ignore_ament_install']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'ignore'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'ignore_ament_install'
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extensions ['colcon_pkg']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'colcon_pkg'
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extensions ['colcon_meta']
+[1.519s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'colcon_meta'
+[1.523s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extensions ['ros']
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'ros'
+[1.532s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extensions ['cmake', 'python']
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'cmake'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'python'
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extensions ['python_setup_py']
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/touchswipe) by extension 'python_setup_py'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extensions ['ignore', 'ignore_ament_install']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'ignore'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'ignore_ament_install'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'colcon_pkg'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extensions ['colcon_meta']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'colcon_meta'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extensions ['ros']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'ros'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extensions ['cmake', 'python']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'cmake'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'python'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extensions ['python_setup_py']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web) by extension 'python_setup_py'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extensions ['ignore', 'ignore_ament_install']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'ignore'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'ignore_ament_install'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extensions ['colcon_pkg']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'colcon_pkg'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extensions ['colcon_meta']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'colcon_meta'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extensions ['ros']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'ros'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extensions ['cmake', 'python']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'cmake'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'python'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extensions ['python_setup_py']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets) by extension 'python_setup_py'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extensions ['ignore', 'ignore_ament_install']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'ignore'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'ignore_ament_install'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extensions ['colcon_pkg']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'colcon_pkg'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'colcon_meta'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extensions ['ros']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'ros'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extensions ['cmake', 'python']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'cmake'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'python'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extensions ['python_setup_py']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/jquery) by extension 'python_setup_py'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'ignore_ament_install'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extensions ['colcon_pkg']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'colcon_meta'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extensions ['ros']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'ros'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extensions ['cmake', 'python']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'cmake'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'python'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extensions ['python_setup_py']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons) by extension 'python_setup_py'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extensions ['ignore', 'ignore_ament_install']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'ignore_ament_install'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extensions ['colcon_pkg']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'colcon_pkg'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extensions ['colcon_meta']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'colcon_meta'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extensions ['ros']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'ros'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extensions ['cmake', 'python']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'cmake'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'python'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extensions ['python_setup_py']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons-bold) by extension 'python_setup_py'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extensions ['ignore', 'ignore_ament_install']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'ignore_ament_install'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extensions ['colcon_pkg']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'colcon_pkg'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extensions ['colcon_meta']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'colcon_meta'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extensions ['ros']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'ros'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extensions ['cmake', 'python']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'cmake'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'python'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extensions ['python_setup_py']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/assets/web/assets/mobirise-icons2) by extension 'python_setup_py'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'ignore'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'ignore_ament_install'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extensions ['colcon_pkg']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'colcon_pkg'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extensions ['colcon_meta']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extensions ['ros']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'ros'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extensions ['cmake', 'python']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'cmake'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'python'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extensions ['python_setup_py']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts) by extension 'python_setup_py'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extensions ['ignore', 'ignore_ament_install']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'ignore'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'ignore_ament_install'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extensions ['colcon_pkg']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'colcon_pkg'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extensions ['colcon_meta']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'colcon_meta'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extensions ['ros']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'ros'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extensions ['cmake', 'python']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'cmake'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'python'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extensions ['python_setup_py']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Jost) by extension 'python_setup_py'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extensions ['ignore', 'ignore_ament_install']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'ignore'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'ignore_ament_install'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extensions ['colcon_pkg']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'colcon_pkg'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extensions ['colcon_meta']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'colcon_meta'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extensions ['ros']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'ros'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extensions ['cmake', 'python']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'cmake'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'python'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extensions ['python_setup_py']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/fonts/Roboto) by extension 'python_setup_py'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extensions ['ignore', 'ignore_ament_install']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'ignore'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'ignore_ament_install'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extensions ['colcon_pkg']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'colcon_pkg'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extensions ['colcon_meta']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extensions ['ros']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'ros'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extensions ['cmake', 'python']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'cmake'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'python'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extensions ['python_setup_py']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/history) by extension 'python_setup_py'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/log) by extensions ['ignore', 'ignore_ament_install']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/log) by extension 'ignore'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/mnt/d/projetos/NewArmStrong.github.io/log) ignored
+[2.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
